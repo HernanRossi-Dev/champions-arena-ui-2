@@ -1,0 +1,533 @@
+
+
+body {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.formcontainer input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #4e5d6c inset;
+  -webkit-text-fill-color: #FFFFFF;
+}
+.jss p {
+    font-size: 18px;
+}
+
+.aboutSiteText {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-top: 200px;
+}
+
+.alignmentButtonGroup {
+  background-color: transparent !important;
+
+  font-size: 20px !important;
+  font-family: "Crimson Text", serif;
+  text-align: left !important;
+
+  width: 30%;
+}
+.selectStatButton {
+  background-color: transparent !important;
+  font-size: 20px !important;
+  font-family: "Crimson Text", serif;
+  text-align: center !important;
+  width: 50%;
+}
+.selectHumanAncestryButton {
+  background-color: transparent !important;
+  font-size: 20px !important;
+  font-family: "Crimson Text", serif;
+  text-align: center !important;
+  width: 30%;
+}
+.selectStatButton2 {
+  background-color: transparent !important;
+  font-size: 20px !important;
+  font-family: "Crimson Text", serif;
+  text-align: center !important;
+  width: 50%;
+}
+
+.selectStatButtonParent {
+  font-size: 20px !important;
+  font-family: "Crimson Text", serif;
+  text-align: center !important;
+  width: 50%;
+  align-content: center !important;
+  align-items: center !important;
+  align-self: center !important;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-left: 25% !important;
+}
+.selectHumanAncestryFeat {
+  font-size: 20px !important;
+  font-family: "Crimson Text", serif;
+  text-align: center !important;
+  width: 80%;
+  align-content: center !important;
+  align-items: center !important;
+  align-self: center !important;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-left: 10% !important;
+}
+
+.selectStatButton:global(.active){
+  box-shadow: inset 4px -1px 20px 10px rgba(0,0,0,0.18);
+}
+.selectHumanAncestryButton:global(.active){
+  box-shadow: inset 4px -1px 20px 10px rgba(0,0,0,0.18);
+}
+.selectStatButton2:global(.active){
+  box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0);
+}
+
+.alignmentButtonGroup:global(.active){
+  box-shadow: inset 4px -1px 20px 10px rgba(0,0,0,0.18) ;
+}
+
+.alignmentButtonGroup:global(.disabled){
+  box-shadow: inset 4px -5px 20px 10px rgba(0,0,0,0.12) ;
+}
+
+.selectStatButton2:hover{
+  box-shadow: inset 4px -1px 20px 10px rgba(0,0,0,0.08) ;
+}
+.selectStatButton:hover{
+  box-shadow: inset 4px -1px 20px 10px rgba(0,0,0,0.08) ;
+}
+.selectHumanAncestryButton:hover{
+  box-shadow: inset 4px -1px 20px 10px rgba(0,0,0,0.08) ;
+}
+.alignmentButtonGroup:hover{
+  box-shadow: inset 4px -1px 20px 10px rgba(0,0,0,0.08) ;
+}
+.favouredClassButtonGroup {
+  background-color: transparent !important;
+  font-size: 20px;
+  font-family: "Crimson Text", serif;
+}
+.favouredClassButtonGroup:global(.active){
+  box-shadow: inset 4px -1px 20px 10px rgba(0,0,0,0.12) ;
+}
+.alignmentInfoDiv {
+  font-size: 15px !important;
+  font-family: "Crimson Text", serif;
+  text-align: center !important;
+}
+
+.alignmentButtonGroupParent {
+  font-size: 20px !important;
+  font-family: "Crimson Text", serif;
+  text-align: left !important;
+  width: 100%;
+}
+.createStatsHeader {
+  margin-top: 15px;
+}
+
+.createColStyle {
+  background: transparent;
+  font-size: 18px;
+  font-family: "Crimson Text", serif;
+  text-align: center !important;
+  align-content: center !important;
+  align-items: center !important;
+}
+.createCharacterPanelParent {
+  padding-bottom: 10px;
+  margin-top: 30px;
+  width: 1050px;
+  border-style: solid;
+  border-width: 1px thin thin thin;
+  border-color: #df691a;
+  background: transparent;
+}
+.editCharacterPanelParent {
+  padding-bottom: 10px;
+  margin-top: 30px;
+  width: 90%;
+  margin-left: 5%;
+  border-style: solid;
+  border-width: 1px thin thin thin;
+  border-color: #df691a;
+    background: transparent;
+}
+
+.createCharacterPanelHeaderStyle {
+  margin-bottom: 25px;
+  text-align: left;
+  background-color:SlateGray !important;
+  background:rgba(255,255,255,0.12) !important;  /*background-image: url("../../public/assets/vector-grunge-background.jpg");*/
+}
+.createCharacterPanelHeaderStyleText {
+  font-size: 23px;
+  font-family: "Cinzel Decorative", cursive;
+  text-align: left;
+  word-spacing: 10px;
+  /*color: saddlebrown;*/
+  /*text-shadow: 2px 2px 0px white;*/
+  color:  #ffffff;
+  /*text-shadow: 2px 2px 0px #fa621f;*/
+  border-bottom-style: groove;
+  border-bottom-width: thin;
+  border-color: #df691a;
+  margin-left: 70px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 500px;
+}
+.createCharacterClassModal {
+  margin-top: 35px;
+}
+
+.createCharacterBoostModal {
+  margin-top: 50px;
+}
+.createCharacterBoostBody {
+  align-content: center;
+  align-items: center;
+  display: grid;
+}
+
+.createCharacterFormPadding {
+  padding-top: 20px;
+}
+
+.createColLabelStyle {
+  font-size: 18px;
+  font-family: "Crimson Text", serif;
+  text-align: left !important;
+  align-content: left !important;
+  align-items: left !important;
+}
+
+.assignBoostTextStyle {
+  font-size: 18px;
+  font-family: "Crimson Text", serif;
+  text-align: center;
+  padding-bottom: 20px;
+
+}
+
+.classModalImageDiv {
+  margin-left: 25%;
+  background-color: transparent;
+  margin-bottom: 40px;
+}
+
+.dropdown-menu li {
+  font-family: "Crimson Text", serif !important;
+  font-size: 16px;
+}
+
+.deleteButton {
+  color: #fa621f;
+  outline: none;
+  border: none;
+  background-color: transparent !important;
+}
+.deleteButtonActions {
+  color: #fa621f;
+  outline: none;
+  border: none;
+  background-color: transparent !important;
+  margin-top: 25px;
+}
+.editButton {
+  color: #435567;
+  font-size: 1.5rem;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.headingText {
+  font-family: "Cinzel Decorative", cursive;
+
+  font-size: 35px;
+  color: ghostwhite;
+  text-shadow: 2px 2px 0px #fe8f3e;
+}
+
+.homeBodyText {
+  font-family: "Cinzel Decorative", cursive;
+
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px 0 #ff6c00;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.genderButtonGroup {
+  background-color: transparent !important;
+
+  font-size: 20px;
+  font-family: "Crimson Text", serif;
+  margin-right: 20px;
+}
+.genderButtonGroup:global(.active){
+  box-shadow: inset 4px -1px 20px 10px rgba(0,0,0,0.12) ;
+}
+.genderImageStyle {
+  background-color: SlateGray;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  -moz-opacity: 20%;
+  -webkit-opacity: 20%;
+  z-index: 2;
+}
+
+.rollForStatsButton {
+  font-size: 17px;
+}
+
+.statsMethodButtons {
+  margin-right: 20px;
+  font-size: 18px;
+  font-family: "Crimson Text", serif;
+  background-color: #df691a;
+}
+
+.genStatsNumberStyle {
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center !important;
+  align-content: center !important;
+}
+
+.customStatsIcons {
+  text-align: center !important;
+}
+.characterTableParent {
+  text-align: center;
+  width: 1000px;
+}
+
+.characterTableHeader {
+  font-size: 24px;
+  font-family: "Crimson Text", serif;
+
+  /*background-color: #FA621F;*/
+  background-color: #df691a;
+}
+.HTRtextAt {
+  text-align: center;
+}
+
+.characterTableRow {
+  text-align: center;
+  font-size: 18px;
+  line-height: normal;
+  font-family: "Merriweather", serif;
+}
+.hr {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 8px auto;
+  height: 0;
+  width: 80%;
+  max-height: 0;
+  font-size: 1px;
+  line-height: 0;
+  clear: both;
+  border: none;
+  border-top: 1px solid #485563;
+  border-bottom: 1px solid #697785;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.hrEdit {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 8px auto;
+  height: 0;
+  width: 80%;
+  max-height: 0;
+  font-size: 1px;
+  line-height: 0;
+  clear: both;
+  border: none;
+  border-top: 1px solid #485563;
+  border-bottom: 1px solid #697785;
+  margin-bottom: 65px;
+  margin-top: 55px;
+}
+.hrCharacterList {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 8px auto;
+  height: 0;
+  width: 100%;
+  max-height: 0;
+  font-size: 1px;
+  line-height: 0;
+  clear: both;
+  border: none;
+  border-top: 1px solid #485563;
+  border-bottom: 1px solid #df691a;
+  margin-bottom: 25px;
+}
+.homeImageDiv {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.homeTextParagraph {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  color: white;
+  padding-top: 20px;
+  text-shadow: none;
+  text-align: left;
+}
+
+.Legaldiv {
+  text-align: center;
+  padding: 100px 25px;
+}
+.LegalSpan {
+  vertical-align: middle;
+  line-height: normal;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+
+.loginDiv {
+  align-content: space-around;
+  background-color: white;
+    display: flex;
+}
+.loginPanelParent {
+  width: 25%;
+    display: flex;
+}
+.loginParent {
+  background: transparent;
+  z-index: 8000;
+  width: 100vw !important;
+  display: flex;
+  align-content: center;
+  -webkit-align-content: center;
+}
+.loginPanelHeading {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  text-align: center;
+}
+.loginModalStyle {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  text-align: center;
+}
+.LegalImgDiv {
+  padding-top: 30px;
+}
+
+.loadingIcon {
+  align-content: space-around;
+}
+
+.panelHeaderParent {
+  border: thin groove #df691a;
+  background: transparent;
+
+}
+.panelHeader {
+  background: transparent;
+}
+.panelHeaderText {
+  background: transparent;
+  font-size: 22px !important;
+  font-family: "Crimson Text", serif !important;
+}
+
+.navBarFont {
+  font-size: 18px;
+  font-family: "Crimson Text", serif;
+  color: white;
+}
+.navbarStyle {
+  border-bottom-style: groove;
+  border-bottom-width: thin;
+  border-color: #df691a;
+  position: fixed;
+  top: 0;
+  background: #2b3e50;
+  z-index: 5001;
+  width: 100%;
+}
+
+.navDropDown a {
+}
+.navBarMenuItem a {
+  border-color: #df691a;
+  border-bottom-style: groove;
+  border-bottom-width: thin;
+  font-size: 14px !important;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+.HeaderImage {
+  margin-top: 10px;
+}
+
+.titleImage {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.splash_img {
+  /*background-image: url("../assets/GolarionMap.png");*/
+  background-image: url("https://storage.googleapis.com/championsarenastatic/static/BlogBannerOne.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  -ms-background-position-x: center;
+  -ms-background-position-y: bottom;
+  margin-top: 48px;
+  margin-bottom: 30px;
+}
+.splash_imgLogin {
+  /*background-image: url("../assets/GolarionMap.png");*/
+  background-image: url("https://storage.googleapis.com/championsarenastatic/static/BlogBannerOne.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  -ms-background-position-x: center;
+  -ms-background-position-y: bottom;
+}
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+    background-image: url("https://storage.googleapis.com/championsarenastatic/static/PZO1140-Chapter1.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+.SiteContent {
+  flex: 1;
+}
+
+.styleFooter {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  width: 100%;
+}
