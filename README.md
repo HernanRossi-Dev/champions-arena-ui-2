@@ -1,3 +1,5 @@
+New repo to completely refactor the front end of the ChampionsArena app using create react app and removing bootstrap dependencies
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
